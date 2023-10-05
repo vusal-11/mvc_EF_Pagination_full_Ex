@@ -1,0 +1,8 @@
+input[data-is-valid="true"]{
+    background-color:green;
+}
+
+
+input[data-is-valid="false"]{
+    background-color:red;
+}

@@ -1,0 +1,32 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+}
+
+fieldset legend{
+    position: absolute;
+    bottom: 0;
+    right:0;
+
+    color:white;
+    background-color: black;
+}
+
+
+fieldset label{
+    margin-right: 15px;
+}
+
+
+fieldset.invalid{
+    background-color:pink;
+}
+
+fieldset.valid{
+    background-color:limegreen;
+}
+
+
